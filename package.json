@@ -12,14 +12,16 @@
     "debug": "node --inspect-brk server"
   },
   "dependencies": {
-    "vue": "^3.0.8",
+    "algoliasearch": "^4.9.3",
+    "vue": "^3.1.1",
+    "vue-instantsearch": "https://pkg.csb.dev/algolia/vue-instantsearch/commit/2f681d14/vue-instantsearch",
     "vue-router": "^4.0.3"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.0.0",
-    "@vitejs/plugin-vue-jsx": "^1.1.2",
-    "@vue/compiler-sfc": "^3.0.8",
-    "@vue/server-renderer": "^3.0.6",
+    "@vitejs/plugin-vue": "1.2.3",
+    "@vitejs/plugin-vue-jsx": "1.1.5",
+    "@vue/compiler-sfc": "3.1.1",
+    "@vue/server-renderer": "3.1.1",
     "compression": "^1.7.4",
     "cross-env": "^7.0.3",
     "dep-import-type": "link:./dep-import-type",

@@ -1,3 +1,6 @@
+import InstantSearch from 'vue-instantsearch/dist/vue3/es'
+// import InstantSearch from 'vue-instantsearch'
+
 import App from './App.vue'
 import { createSSRApp } from 'vue'
 import { createRouter } from './router'
@@ -8,6 +11,7 @@ import { createRouter } from './router'
 export function createApp() {
   const app = createSSRApp(App)
   const router = createRouter()
+  // app.use(InstantSearch)
   app.use(router)
   return { app, router }
 }
